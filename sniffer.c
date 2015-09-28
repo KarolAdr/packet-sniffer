@@ -108,7 +108,7 @@ static void sniff(socket_t socketfd, char *ifname)
                 message.speed = speed;
                 message.index = socket_addr.sll_ifindex - 4;
                 message.packet_direction = outgoing;
-                //strncpy(message.buff, buff, sizeof(buff));
+                strncpy(message.buff, buff, sizeof(buff));
                 post(semap, cond, &message);
                     seg_addr[0] = message;
                 /*printf("OUTGOING- lkms[%d",message.index);
@@ -127,7 +127,7 @@ static void sniff(socket_t socketfd, char *ifname)
                 message.speed = speed;
                 message.index = socket_addr.sll_ifindex - 4;
                 message.packet_direction = incomming;
-                //strncpy(message.buff, buff, sizeof(buff));
+                strncpy(message.buff, buff, sizeof(buff));
                 post(semap, cond, &message);
                     seg_addr[0] = message;
                 /*printf("INCOMMING- lkms[%d",message.index);

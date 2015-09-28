@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-c -Wall #-I/home/karoladr/trafficgenerator/traffic-visualizer-master/include/
-LDFLAGS= -lncurses#-L/home/karoladr/trafficgenerator/traffic-visualizer-master/build/ -ltrafficvisualizer -lncurses
+CFLAGS=-c -Wall 
+LDFLAGS= -lncurses
 SOURCES= main.c test.c 
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=menu
