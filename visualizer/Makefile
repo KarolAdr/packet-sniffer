@@ -1,4 +1,4 @@
-path=/home/karoladr/trafficgenerator/genproj
+path=..
 CC=gcc
 CFLAGS=-c -g -pthread -Wall -I$(path)/traffic-visualizer-master/include/
 LDFLAGS= -L$(path)/traffic-visualizer-master/build/ -ltrafficvisualizer -lncurses -pthread
