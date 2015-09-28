@@ -1,0 +1,9 @@
+This software is responsible for running every
+program in "packet analyzer package" in a proper way.
+
+IMPORTANT
+ 1: If some errors are printed when trying to run,
+    dont panic. Just restart and everything should work
+    properly.
+ 2: Successfull operation status is indicated by printing:
+    "Sniffer started" into terminal output.

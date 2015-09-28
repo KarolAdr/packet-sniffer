@@ -1,0 +1,16 @@
+This software is build upon very popular library: ncurses. 
+The main task of program is to allow user select one of
+so called "menu items" which are basically just some of
+test cases for virtual switch.
+Program can be run just by doing:
+    1: make
+    2: sudo ./demo
+
+After running last command, user will be presented with
+a nice menu. Navigation is really straightforward
+    1: move upward- press up arrow case
+    2: move downward- press down arrow case
+    3: select- press enter
+    4: quit- press q
+
+
